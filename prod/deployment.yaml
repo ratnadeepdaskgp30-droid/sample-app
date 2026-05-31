@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: hello-app
-        image: us-west1-docker.pkg.dev/qwiklabs-gcp-00-e32ce74c3593/my-repository/sample-app-prod:v1.0
+        image: us-west1-docker.pkg.dev/YOUR_ACTUAL_PROJECT_ID/my-repository/sample-app-prod:v1.0
         ports:
         - containerPort: 8080
